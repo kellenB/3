@@ -2,7 +2,7 @@
 
 ## Configuration
 
-In order to run the application, you will need to have a valid GMail API key. Currently the project contains a key which is validated for `localhost:8000`, `localhost: 3000` and `travisvalenti.com`. If you'd like to host on a different domain, you will need to have a valid google cloud account, and enable the APIs for Gmail, then copy the API key and client Id to `config.ts`, then rebuild.
+In order to run the application, you will need to have a valid GMail API key. Currently the project contains a key which is validated for `localhost:8000`, `localhost: 3000`. If you'd like to host on a different domain, you will need to have a valid google cloud account, and enable the APIs for Gmail, then copy the API key and client Id to `config.ts`, then rebuild.
 
 Currently the basename setting for the react router is configured to be `.`. If this causes any issues for your use-case, you can change it in the settings too. (A basename of `.` causes all links to be relative, to make it work in on any url, which is ideal for development, but makes some other things not work so well.)
 
