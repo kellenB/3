@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Write component should match snapshot 1`] = `
+<div>
+  <div
+    style="text-align: center; display: flex; align-items: center; justify-content: center; min-height: 100%;"
+  >
+    <strong
+      style="display: inline-block; height: 1rem;"
+    >
+      Haven't done this yet
+    </strong>
+  </div>
+</div>
+`;

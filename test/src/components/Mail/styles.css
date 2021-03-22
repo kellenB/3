@@ -1,0 +1,146 @@
+.Mail {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.Mail .authButton {
+  float: right;
+}
+
+.Mail .mailGroup {
+  box-shadow:
+    2px 2px 3px #ccc,
+    -2px 2px 3px #ccc;
+  border-radius: 2px;
+  margin: 1em auto;
+  background : white;
+}
+
+.Mail .categoryLabel {
+  text-align: center;
+  padding: 10px;
+}
+
+.Mail .mailItem {
+  border-bottom: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.Mail .mailItem .iframeContainer {
+  width: 100%;
+  overflow-y: auto;
+  max-height: 60vh;
+}
+
+.Mail .mailItem iframe {
+  width: 100%;
+  margin-top: 5px;
+  height: auto;
+  overflow: hidden;
+}
+
+.Mail .mailItemHeader {
+  padding: 10px;
+  background: #eee;
+}
+
+.Mail .threadHeader {
+  padding: 10px;
+  background: rgb(236, 255, 246);
+}
+
+.Mail .mailItemContent {
+  background: white;
+}
+
+.Mail .mailItem.unread .mailItemHeader {
+  background: white;
+}
+
+.Mail .snippet {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  color: grey;
+  font-style: italic;
+}
+
+.Mail .chip {
+  font-size: 0.6rem;
+  font-weight: bold;
+  color: white;
+  background-color: var(--fillColour);
+  border-radius: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+  padding: 2px 5px;
+  box-sizing: border-box;
+}
+
+ .Mail .droupDownMenu {
+    position: relative;
+
+}
+.Mail .droupDownMenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top:45px;
+    right:0px;
+    width: 200px;
+    background-color: white;
+    font-weight:bold;
+    position: absolute;
+
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.Mail .droupDownMenu li a {
+    color: #000;
+    text-decoration: none;
+}
+.Mail .droupDownMenu li {
+    padding: 8px 16px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.Mail .droupDownMenu li:last-child {
+    border-bottom: none;
+}
+
+.Mail .droupDownMenu .button{
+    width:178px;
+    height:18px;
+    background-color:#ff3232 ;
+    padding:12px;
+    border-radius:5px;
+    font-weight:bold;
+    color:white;
+}
+.Mail .droupDownMenu .button:before{
+    content:"";
+    position:absolute;
+    width:0px;
+    height:0px;
+    border: 10px solid;
+    border-color: white transparent transparent transparent;
+    right:6px;
+    top:18px;
+}
+
+.Mail .create-NewLabel{
+  padding: 8px 16px;
+  border-bottom: 1px solid #e5e5e5;
+  background-color:white;
+  top:45px;
+  right:0px;
+  width: 200px;
+  border:none;
+}
+
+.Mail .create-NewLabel:hover {
+    background-color: #e5e5e5;
+    color: white;
+}

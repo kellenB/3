@@ -1,0 +1,42 @@
+.Dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+  min-height: 100%;
+  width: 100%;
+}
+​
+.Dashboard > div {
+  width: 4rem;
+  margin: 10px;
+}
+
+.Dashboard .icon {
+  width: 8rem;
+  height: 8rem;
+  background: white;
+  box-shadow: 2px 1px 3px grey;
+  border-radius: 4px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.Dashboard .icon:hover {
+  transform: scale(1.01);
+}
+
+.Dashboard .icon > img {
+  width: 80%;
+  margin: auto;
+}
+
+.Dashboard .label {
+  margin-top: 3px;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  color: #333;
+  font-weight: bold;
+}

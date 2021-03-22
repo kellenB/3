@@ -1,0 +1,32 @@
+.Button {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 2px;
+    border: solid 1px transparent;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    color: #ffffff;
+    background-color: var(--fillColour);
+    cursor: pointer;
+}
+
+.Button[disabled]{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 2px;
+    border: solid 1px transparent;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    color: #ffffff;
+    background-color: #787979;
+}
+
+.Button.buttonHeader {
+    background-color: var(--highlightColour);
+}
+
+.Button.buttonDashboard {
+    width: 128px;
+}

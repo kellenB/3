@@ -1,0 +1,119 @@
+.SearchBar {
+  min-width: 330px;
+  width: 25%;
+  height: 60px;
+  float: left;
+  margin: 0 20px;
+}
+
+.dropdownArrow {
+  width: 40px;
+  height: 60px;
+  float: left;
+  position: relative;
+}
+
+.dropdownArrow button {
+  width: 32px;
+  height: 32px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 27%;
+  left: 14%;
+  outline: none;
+}
+
+.dropdownArrow button:hover {
+  transform: scale(1.15);
+}
+
+.dropdownArrow svg {
+  width: 26px;
+  height: 26px;
+}
+
+.searchBarInput {
+  width: 80%;
+  float: left;
+}
+
+.searchBarInput form {
+  width: 100%;
+  float: left;
+  position: relative;
+}
+
+.searchBarInput input {
+  width: 80%;
+  height: 30px;
+  padding-left: 15px;
+  border-radius: 42px;
+  border: 2px solid var(--highlightColour);
+  background: #eee;
+  outline: none;
+  position: relative;
+}
+
+.searchBarInput button {
+  width: 32px;
+  height: 32px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 29%;
+  right: 17%;
+  outline: none;
+}
+
+.searchBarInput button:hover {
+  transform: scale(1.1);
+}
+
+.searchBarInput svg {
+  width: 24px;
+  height: 24px;
+}
+
+/* dropdownMenu */
+
+.dropdownMenu {
+  float: left;
+	margin-top: 4px;
+	background-color: var(--fillColour);
+	color: rgba(255, 255, 255, 0.8);
+	width: 250px;
+	height: 290px;
+	font-size: 15px;
+  font-weight: 300;
+  position: relative;
+  z-index: 10;
+}
+
+.dropdownMenu p {
+  padding: 0 0 0 30px;
+  line-height: 30px;
+  margin: 10px 0;
+}
+
+.dropdownMenu p:after {
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	margin-right: 10px;
+	font-size: 14px;
+}
+
+.dropdownMenu p:hover:after { opacity: 1; }
+
+.dropdownMenu p:hover {
+	background: var(--highlightColour);
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+.dropdownMenu a {
+  font-size: 100%;
+}

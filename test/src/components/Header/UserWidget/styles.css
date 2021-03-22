@@ -1,0 +1,44 @@
+.UserWidget {
+    float: right;
+    height: 60px;
+    width: 320px;
+}
+
+.userProfile {
+    float: right;
+    height: 60px;
+    line-height: 60px;
+    width: 220px;
+}
+
+.userPhoto {
+    float: right;
+    height: 60px;
+    width: 60px;
+}
+
+.userPhoto img {
+    margin: 5px 0;
+    height: 50px;
+    width: 50px;
+    border-radius:50%;
+}
+
+.userName {
+    float: right;
+    height: 60px;
+    width: 140px;
+}
+
+.userName p {
+    margin: 0;
+    font-size: 18px;
+    color: white;
+}
+
+
+.userButton {
+    float: right;
+    height: 60px;
+    width: 100px;
+}

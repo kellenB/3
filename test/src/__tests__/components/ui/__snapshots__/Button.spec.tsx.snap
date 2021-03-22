@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component Matches the snapshot When disabled=true 1`] = `
+<div>
+  <button
+    class="Button"
+    disabled=""
+  >
+    Button Content
+  </button>
+</div>
+`;
+
+exports[`Button component Matches the snapshot With just content 1`] = `
+<div>
+  <button
+    class="Button"
+  >
+    Button Content
+  </button>
+</div>
+`;
+
+exports[`Button component Matches the snapshot With just onClick 1`] = `
+<div>
+  <button
+    class="Button"
+  >
+    Button Content
+  </button>
+</div>
+`;
+
+exports[`Button component Matches the snapshot With one className 1`] = `
+<div>
+  <button
+    class="Button oneClassName"
+  >
+    Button Content
+  </button>
+</div>
+`;
+
+exports[`Button component Matches the snapshot With two classNames 1`] = `
+<div>
+  <button
+    class="Button oneClassName twoClassName"
+  >
+    Button Content
+  </button>
+</div>
+`;
+
+exports[`Button component Matches the snapshot With two elements as children 1`] = `
+<div>
+  <button
+    class="Button"
+  >
+    <div>
+      <span>
+        x
+      </span>
+    </div>
+  </button>
+</div>
+`;

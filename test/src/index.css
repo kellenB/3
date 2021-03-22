@@ -1,0 +1,50 @@
+html {
+  --fillColour: #57a5af;
+  --highlightColour: #5eb685;
+  --backgroundColour: #efefef;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Open Sans', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  background: var(--backgroundColour);
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.timelockModal {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(10px);
+  background: #cccccccc;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.timelockModal > div {
+  height: 5rem;
+  padding: 1rem;
+  background: white;
+  border-radius: 3px;
+  text-align: center;
+  border: 2px solid dodgerblue;
+}
