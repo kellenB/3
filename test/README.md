@@ -10,7 +10,7 @@ Currently the basename setting for the react router is configured to be `.`. If 
 
 Building of the application is done with a standard `npm run build`. Prior to this, you will likely need to run `npm install`.
 
-The configuration files can be found in `/config.ts`, which must be modified prior to build, to include the base path of the application (e.g `/Usyd19P33`) and the authorisation tokens / API keys for the Google API.
+The configuration files can be found in `/config.ts`, which must be modified prior to build, to include the base path of the application  and the authorisation tokens / API keys for the Google API.
 
 In order to host the application on a non `localhost:8000` domain, you must configure an API service on google cloud, and use it's details in the config file.
 
